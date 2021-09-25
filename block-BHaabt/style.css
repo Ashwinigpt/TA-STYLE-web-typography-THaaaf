@@ -68,6 +68,9 @@ body{
     
     font-family: 'DM Serif Display', serif;
 }
+p{
+    font-family: 'Karla', sans-serif;
+}
 h1{
     font-size: 35px;
     color: rgb(22, 22, 68);
@@ -102,7 +105,7 @@ h2{
     font-size: 60px;
     color: white;
     font-weight: 900;
-    margin-top: 100px;
+    margin-top: -100px;
     margin-right: 200px;
 }
 .para-1{
@@ -164,6 +167,12 @@ h4{
     border-radius: 50%;
     margin-top: 40px;
 }
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 h5{
     font-size: 20px;
     color: rgb(28, 28, 77); 
@@ -185,6 +194,9 @@ h5{
     font-size: 50px;
     color: white;
     font-weight: 900;
+    margin: 20px;
+    padding-left: 30px;
+
 }
 .how-we-work{
     border: 2px rgb(209, 197, 197) solid;
@@ -193,6 +205,7 @@ h5{
     text-decoration: none;
     color: grey;
     font-size: 20px;
+    margin-right: 40px;
 }
 h6{
     font-size: 35px;
@@ -202,15 +215,19 @@ h6{
 .prolnsure{
     margin-top: 50px;
 }
+.font-awesome a{
+    font-size: 30px; 
+    color: grey;
+    margin: 10px;
+}
 .hr-3{
-    margin-top: -8px;
+    margin-top: -5px;
 }
 .nav-2 a{
     font-size: 18px;
     text-decoration: none;
     color: rgb(86, 84, 110);
     padding: 20px;
-
 }
 .nav-2{
     text-align: center;
